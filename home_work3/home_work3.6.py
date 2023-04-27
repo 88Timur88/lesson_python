@@ -9,45 +9,6 @@
 # ноутбук
 #     12
 
-# a = e = i= o = u = l = n = s = t = r = 1
-# d = g = 2
-# b = c = m = p = 3
-# f = h = v = w = y = 4
-# k = 5
-# j = x = 8
-# q = z = 10
-# а = в = е = и = н = о = р = с = т = 1
-# д = к = л = м = п = у = 2
-# б = г = ё = ь = я = 3
-# й = ы = 4
-# ж = з = х = ц = ч = 5
-# ш = э = ю = 8
-# ф = щ = ъ = 10
-
-# slovo = input('')
-# sum = 0
-# sum = int(sum)
-
-
-# for i in enumerate(slovo):
-#     if i == a:
-#         sum = sum + 1
-#         print(i)
-    # if i == d == д:
-    #     sum = sum + 2
-    # if i == b == б:
-    #     sum = sum + 3
-    # if i == f == й:
-    #     sum = sum + 4
-    # if i == k == ж:
-    #     sum = sum + 5
-    # if i == j == ш:
-    #     sum = sum + 8
-    # if i == q == ф:
-    #     sum = sum + 10
-#print(sum)
-
-
 list_letters = {1: "AEIOULNSTRАВЕИНОРСТ",
                 2: "DGДКЛМПУ",
                 3: "BCMPБГЁЬЯ",
