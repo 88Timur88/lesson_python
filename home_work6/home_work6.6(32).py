@@ -12,14 +12,15 @@ min = int(input("Введите минимальное значение: "))
 max = int(input("Введите максимальное значение: "))
 
 from random import randint
-a = int(input("Введите количество оценок в журнале: "))
+a = int(input("Введите чисел в массиве журнале: "))
 list_1 = []
 while len(list_1) < a:
     i = randint(1, 10)
     list_1.append(i)
+    list_1 = map(int, list_1)
 print(list_1)
 
 for i in range(len(list_1)):
-    if min < list[i] < max:
+    if min <= list[i] <= max:
         print(i)
 
